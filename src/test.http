@@ -1,0 +1,7 @@
+POST http://localhost:5004/tasks
+Content-Type: application/json
+
+{"type": 10}
+
+###
+GET http://localhost:5004/tasks/1f3d9dd5-08c1-4e77-9b6e-efdc0cdf9f65
